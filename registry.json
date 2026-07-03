@@ -142,7 +142,7 @@
         "Auth"
       ]
     },
-    { 
+    {
       "id": "embeddings-forward",
       "name": "Embeddings Rerank Forward",
       "description": "Forwards OpenAI-compatible embeddings and Cohere-style rerank requests to upstream providers. Supports multiple providers per route with model aliasing and key failover.",
@@ -171,6 +171,21 @@
         "Usage",
         "Codex",
         "Dashboard"
+      ]
+    },
+    {
+      "id": "model-mapper",
+      "name": "Model Mapper",
+      "description": "Maps requested CLIProxyAPI model names to upstream models across Claude, OpenAI Chat Completions, and OpenAI Responses.",
+      "author": "DoingDog",
+      "repository": "https://github.com/DoingDog/cpa-plugin-model-mapper",
+      "homepage": "https://github.com/DoingDog/cpa-plugin-model-mapper",
+      "license": "Unlicense",
+      "tags": [
+        "Router",
+        "Model Router",
+        "Claude",
+        "OpenAI"
       ]
     }
   ]
