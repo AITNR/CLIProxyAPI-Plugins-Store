@@ -202,6 +202,19 @@
         "Claude",
         "OpenAI"
       ]
+    },
+    {
+      "id": "codexcomp",
+      "name": "CodexComp",
+      "description": "Targets gpt-5.5 streamed-request reasoning truncation and folds continuation rounds when encrypted reasoning content is available.",
+      "author": "uf-hy",
+      "repository": "https://github.com/uf-hy/cpa-plugin-codexcomp",
+      "homepage": "https://github.com/uf-hy/cpa-plugin-codexcomp",
+      "license": "MIT",
+      "tags": [
+        "Executor",
+        "Codex"
+      ]
     }
   ]
 }
