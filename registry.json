@@ -204,6 +204,21 @@
       ]
     },
     {
+      "id": "codexcont",
+      "name": "CodexCont",
+      "description": "Continues gpt-5.5 folded reasoning streams inside CLIProxyAPI when upstream truncation matches the CodexCont heuristic.",
+      "author": "cwzsquare",
+      "version": "0.1.2",
+      "repository": "https://github.com/cwzsquare/cpa-plugin-codexcont",
+      "homepage": "https://github.com/cwzsquare/cpa-plugin-codexcont",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Codex",
+        "Responses"
+      ]
+    },
+    {
       "id": "codexcomp",
       "name": "CodexComp",
       "description": "Targets gpt-5.5 streamed-request reasoning truncation and folds continuation rounds when encrypted reasoning content is available.",
