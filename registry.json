@@ -253,6 +253,7 @@
       "version": "0.0.1",
       "repository": "https://github.com/AITNR/cap-token-usage-tracker",
       "homepage": "https://github.com/AITNR/cap-token-usage-tracker",
+      "license": "MIT",
       "tags": [
         "Management",
         "Usage",
